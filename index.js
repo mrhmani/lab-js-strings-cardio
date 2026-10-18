@@ -47,7 +47,9 @@ console.log(`${string3.repeat(4)} ${stringTree.repeat(1)}`);
 
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
-// Your code here...
+console.log(fruit.slice(0, 7));
+
+
 
 
 
