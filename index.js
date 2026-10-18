@@ -5,8 +5,9 @@
 
 const string1 = "My favorite dessert is jello";
 
-// Your code here...
+// console.log(string1.indexOf("j")); I found the problem and that is index of 23 
 
+console.log(string1.slice(23, -4)); 
 
 
 
