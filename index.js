@@ -61,17 +61,31 @@ console.log(fruit.slice(0, 7));
 // else print the message "The string does not include the word 'oxygen'".
 
 const funnyHeadline1 = "Breathing oxygen linked to staying alive";
+ 
+
+// Check the first headline 
+ if (funnyHeadline1.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'")
+ } else {
+    console.log("Breathing oxygen linked to staying alive")
+ }  
+
+ console.log(funnyHeadline1.includes("oxygen")); 
+
+
+// Check the second headline 
 const funnyHeadline2 = "Students Cook & Serve Grandparents";
 
+if (funnyHeadline2.includes("oxygen")) { 
+    console.log("The string includes the word 'oxygen`")
+} else {
+    console.log("Students Cook & Serve Grandparents")
+} 
 
-// Check the first headline
-// Your code here ...
+console.log(funnyHeadline2.includes("oxygen"));
 
 
-// Check the second headline
-// Your code here ...
-
-
+ 
 
 /*******************************************
        Iteration 6 | String Length
