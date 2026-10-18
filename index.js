@@ -92,12 +92,14 @@ console.log(funnyHeadline2.includes("oxygen"));
 *******************************************/
 // Using console.log() print to the console the length of the string and the last character in the string.
 
-const string4 = "zEAWrTC9EgtxmK9w1";
+const string4 = "zEAWrTC9EgtxmK9w1"; 
 
 
 // a) Print the string length
-// Your code here ...
+
+console.log(`${string4.length}`);
 
 
 // b) Print the last character in the string
-// Your code here ...
+
+console.log(string4.charAt(16));
