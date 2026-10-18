@@ -7,7 +7,8 @@ const string1 = "My favorite dessert is jello";
 
 // console.log(string1.indexOf("j")); I found the problem and that is index of 23 
 
-console.log(string1.slice(23, -4)); 
+console.log(string1.slice(23, -4)); // this might be the solution
+
 
 
 
@@ -16,10 +17,9 @@ console.log(string1.slice(23, -4));
 *******************************************/
 // Make a new string with the text "COOL" by using only the characters available in the provided string and the bracket notation
 
-const string2 = "ABCDEFGHJKLO";
+const string2 = "ABCDEFGHJKLO"; 
 
-// Your code here...
-
+console.log(string2[2] + string2[11] + string2[11] + string2[10]); 
 
 
 
