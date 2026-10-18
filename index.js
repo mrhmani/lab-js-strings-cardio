@@ -23,14 +23,19 @@ console.log(string2[2] + string2[11] + string2[11] + string2[10]);
 
 
 
+
+
 /*****************************************************
     Iteration 3 | Repeat a String and Concatenate
 *****************************************************/
 // Using the method .repeat() and the provided string, print out the text "NaNaNaNa Batman!" in the console.
 
-const string3 = "Na";
+const string3 = "Na"; 
 
-// Your code here...
+const stringTree = "Batman!"; 
+
+console.log(`${string3.repeat(4)} ${stringTree.repeat(1)}`);
+
 
 
 
